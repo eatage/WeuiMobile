@@ -1,0 +1,75 @@
+﻿html
+        {
+            /*禁止选中文本*/
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .topbar
+        {
+            margin: 0px 0px;
+            text-align: center;
+            width: 100%;
+            height: 45px;
+            top: 0px;
+            position: fixed;
+            z-index: 100;
+            background-color: rgba(50,50,50,0.9);
+        }
+        .topbar span
+        {
+            /*标题*/
+            line-height: 45px;
+            color: White;
+            font-family: 微软雅黑;
+            font-size: 17px;
+            letter-spacing: 5px;
+        }
+        .topbar a
+        {
+            color: White;
+            font-family: 微软雅黑;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        .topbar .barback
+        {
+            margin-top:12px;
+            cursor:pointer;
+            position:fixed;
+            left:10px;
+        }
+        .topbar .barback:hover 
+        {
+            color:#cccccc;
+        }
+        .topbar .barback img
+        {
+            vertical-align:middle;
+        }
+        .topbar .barclose
+        {
+            margin-top:12px;
+            cursor:pointer;
+            position:fixed;
+            left:65px;
+        }
+        .topbar .barclose:hover 
+        {
+            color:#cccccc;
+        }
+        .topbar .barmenu
+        {
+            margin-top:21px;
+            cursor:pointer;
+            position:fixed;
+            right:12px;
+            vertical-align:middle;
+        }
+        .colorblue
+        {
+            color:Blue;
+        }
